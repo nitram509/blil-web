@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/nitram509/blil/blilweb/info"
+	"github.com/nitram509/blil-web/pkg/info"
+	"github.com/nitram509/blil-web/pkg/handler"
 	"gopkg.in/alecthomas/kingpin.v1"
 	"log"
 	"net/http"
@@ -24,7 +25,7 @@ func main() {
 	kingpin.Version(info.VERSION)
 	kingpin.Parse()
 
-	router := NewRouter()
+	router := handler.NewRouter()
 
 	inetAdress := fmt.Sprintf("%s:%d", *flagInterface, *flagPort)
 	log.Fatal(http.ListenAndServe(inetAdress, router))

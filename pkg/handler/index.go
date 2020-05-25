@@ -2,8 +2,8 @@ package handler
 
 import (
 	"encoding/json"
-	"github.com/nitram509/blil/blilweb/info"
-	"github.com/nitram509/blil/blilweb/led"
+	"github.com/nitram509/blil-web/pkg/info"
+	"github.com/nitram509/blil-web/pkg/led"
 	"net/http"
 	"strconv"
 )
@@ -42,17 +42,17 @@ func Index(w http.ResponseWriter, r *http.Request) {
 
 	leds := led.DetectAllLeds().Leds
 	for l := range leds {
-		led := leds[l]
+		aLed := leds[l]
 		lir := ledInfoResource{
 			Links: make([]selfLink, 0),
 		}
 		lir.Links = append(lir.Links, selfLink{Self: link{
-			Href:  "http://" + r.Host + "/led/" + strconv.Itoa(led.Number),
+			Href:  "http://" + r.Host + "/led/" + strconv.Itoa(aLed.Number),
 			Title: "Set or get color on this LED",
 		}})
-		lir.Number = led.Number
-		lir.Path = led.Path
-		lir.Type = led.Type
+		lir.Number = aLed.Number
+		lir.Path = aLed.Path
+		lir.Type = aLed.Type
 		embeddedleds.Led = append(embeddedleds.Led, lir)
 	}
 
