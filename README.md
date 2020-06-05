@@ -7,9 +7,24 @@ Written in GO, works on Windows and Mac OS X
 
 The MIT License (MIT)
 
+## How to run the server
 
-## Usage
+Once the Go code is compile, the blil-web executable offers some command line options.
 
+```shell script
+>>> ./blil-web --help
+
+usage: blil-web [<flags>]
+
+Flags:
+  --help           Show help.
+  -p, --port=8080  listen on port
+  -i, --interface="127.0.0.1"  
+                   listen on interface
+  --version        Show application version.
+```
+
+## How to use the API
 
 ### get all available devices
 
