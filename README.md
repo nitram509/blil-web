@@ -1,7 +1,7 @@
 # BliL-Web - Blinking Light Web
 
-A web server/application, which makes a blinkstick and compatible devices available via REST API (HTTP + JSON)
-
+A web server/application, which makes a Blinkstick and compatible devices available via REST API (HTTP + JSON)
+Written in GO, works on Windows and Mac OS X
 
 #### License
 
@@ -49,6 +49,10 @@ POST http://localhost:8080/led/0/green
     "color": "008000"
 }
 ```
+
+## Known issues
+
+* there is no authentication/security implemented
 
 ## Supported devices
 

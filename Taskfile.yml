@@ -1,0 +1,19 @@
+version: '2'
+
+# how to use this file: https://taskfile.dev/#/usage
+
+tasks:
+
+  lint:
+    cmds:
+      - go vet ./cmd/blil-web
+
+  build:
+    deps: [lint]
+    cmds:
+      - go build ./cmd/blil-web
+
+  test:
+    deps: [lint]
+    cmds:
+      - go test ./cmd/blil-web
