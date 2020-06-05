@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/nitram509/blil-web/pkg/info"
 	"github.com/nitram509/blil-web/pkg/handler"
+	"github.com/nitram509/blil-web/pkg/info"
 	"gopkg.in/alecthomas/kingpin.v1"
 	"log"
 	"net/http"

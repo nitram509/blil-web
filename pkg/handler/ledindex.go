@@ -2,7 +2,7 @@ package handler
 
 import (
 	"encoding/json"
-	led "github.com/nitram509/blil-web/pkg/led"
+	"github.com/nitram509/blil-web/pkg/led"
 	"net/http"
 )
 

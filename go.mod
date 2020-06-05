@@ -7,7 +7,7 @@ require (
 	github.com/boombuler/hid v0.0.0-20200303134931-8ff92ccd15a8 // indirect
 	github.com/boombuler/led v0.0.0-20190225062837-d94ba02fda02
 	github.com/gorilla/mux v1.7.4
-	gopkg.in/alecthomas/kingpin.v1 v1.3.7 // indirect
+	gopkg.in/alecthomas/kingpin.v1 v1.3.7
 )
 
 // replace because build error: go build github.com/boombuler/hid: invalid flag in #cgo LDFLAGS: -fconstant-cfstrings
