@@ -3,6 +3,10 @@
 A web server/application, which makes a Blinkstick and compatible devices available via REST API (HTTP + JSON)
 Written in GO, works on Windows and Mac OS X
 
+#### Build status
+
+[![Build Status](https://travis-ci.org/nitram509/blil.svg?branch=master)](https://travis-ci.org/nitram509/blil)
+
 #### License
 
 The MIT License (MIT)
