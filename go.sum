@@ -7,6 +7,7 @@ github.com/boombuler/led v0.0.0-20190225062837-d94ba02fda02/go.mod h1:3aukX3oq0T
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/gorilla/mux v1.7.4 h1:VuZ8uybHlWmqV03+zRzdwKL4tUnIp1MAQtp1mIFE1bc=
 github.com/gorilla/mux v1.7.4/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
+github.com/gorilla/mux v1.8.0/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
 github.com/nitram509/blil v0.2.0 h1:+mrJr840A5hTeo7qOdrVGWg3iNlZI9kkCn2qkHkiMYY=
 github.com/nitram509/hid v0.0.0-20200516220657-af2d63ac9fab h1:G+U0KVn6OfJi/X6Tr2XRCI6FNZXPxGSAlWcuuHMGvS0=
 github.com/nitram509/hid v0.0.0-20200516220657-af2d63ac9fab/go.mod h1:NCFim5erB4VwtGDSqr2ENWSQ7eiv61a6NjR2zsVAeds=
